@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<html lang="en-us">
+<title>Culiner Adventure</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' type='./css/styles' href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">    
+<link rel='stylesheet' href="styles.css">
 
-    <style>
-        body {font-family: "Times New Roman", Georgia, Serif;}
-        h1, h2, h3, h4, h5, h6 {
-          font-family: "Playfair Display";
-          letter-spacing: 5px;
-        }
-        </style>
-
-<!-- Navbar (sit on top) -->
+   
+   <!-- Navbar (sit on top) -->
 <div class="w3-top">
-    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-      <a href="#home" class="w3-bar-item w3-button">Culiner Adventure</a>
-      <!-- Right-sided navbar links. Hide them on small screens -->
-      <div class="w3-right w3-hide-small">
-        <a href="#about" class="w3-bar-item w3-button">About</a>
-        <a href="#menu" class="w3-bar-item w3-button">Food</a>
-        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-        <a class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-      </div>
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Culiner Adventure</a>
+
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#food" class="w3-bar-item w3-button">Food</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      <a class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
     </div>
   </div>
-
+</div>
+        
          
-  
+       
+      
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;min-width:500px" id="home">
-  <img class="w3-image" src="https://a.cdn-hotels.com/gdcs/production139/d788/1e28039e-65d5-4bbb-8e18-4be9b40ba487.jpg" alt="sushi" image-size:100%>
+  <img class="w3-image" src="https://a.cdn-hotels.com/gdcs/production139/d788/1e28039e-65d5-4bbb-8e18-4be9b40ba487.jpg" alt="sushi">
   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
     <h1 class="w3-xxlarge w3-white">The Beauty of Japanese Foods</h1>
   </div>
@@ -48,7 +50,7 @@
   <!-- About Section -->
   <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-big">
-     <img src="https://images.prismic.io/tokyotreat/bff58d1d68032772ee75a3493ef975ffff5a61b8_kokoronotane.jpg" class="w3-round w3-image w3-opacity-min" alt="Kaiseki" width="700" height="1700;vertical-align:middle;">
+     <img src="https://images.prismic.io/tokyotreat/bff58d1d68032772ee75a3493ef975ffff5a61b8_kokoronotane.jpg" class="w3-round w3-image w3-opacity-min" alt="Kaiseki" width="700" height="1700;vertical-align:middle">
     </div>
 
     <div class="w3-col m6 w3-padding-medium">
@@ -62,9 +64,9 @@
   <!-- !PAGE CONTENT! -->
     
     <!-- Menu Section -->
-    <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-row w3-padding-64">
     <div class="w3-col l0 w3-padding-large">
-    <h1 class="w3-center">The beauty and art of Japanese foods</h1><br>
+    <h1 class="w3-center">The beauty and art of Japanese food</h1><br>
     
     <!-- First Photo Grid-->
     <div class="w3-row-padding w3-padding-16 w3-center" id="food">
@@ -118,9 +120,7 @@
     <!-- Pagination -->
     <div class="w3-center w3-padding-32">
       <div class="w3-bar">
-        <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-        <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+         <a href="#" class="w3-bar-item w3-black w3-button">1</a>
       </div>
     </div>
     
