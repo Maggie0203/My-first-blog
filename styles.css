@@ -5,6 +5,16 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 5px;
 }
 
+footer{
+background-color: teal;
+height:50px;
+width:auto;
+padding-top: 20px;
+text-align:center;
+
+
+}
+
 
 
 @media only screen and (max-width: 767px) {
